@@ -1,0 +1,11 @@
+function analisarTamanhoTexto(texto) {
+  if(texto.length > 10) {
+    console.log('Texto muito longo');
+  } else {
+    console.log('Texto dentro do limite');
+  }
+}
+
+analisarTamanhoTexto('Pernambuco');
+analisarTamanhoTexto('Meu nome é Joana');
+analisarTamanhoTexto('Olá')
